@@ -4926,7 +4926,8 @@ CONFIG_PACKAGE_luci-mod-system=y
 #
 # 3. Applications
 #
-#
+
+# nas-pakages-luci
 CONFIG_PACKAGE_luci-app-ddnsto=y
 CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-istorex=y
