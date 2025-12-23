@@ -284,7 +284,6 @@ jobs:
           pip3 install unidecode
           pip3 install pysocks
           sudo apt-get install libc-client-dev
-          sudo apt-get install uw-imap
           docker rmi -f $(docker images -q) 2>/dev/null || true
           [[ -n "${AGENT_TOOLSDIRECTORY}" ]] && sudo rm -rf "${AGENT_TOOLSDIRECTORY}"
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android 2>/dev/null
