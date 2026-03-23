@@ -25,6 +25,11 @@ on:
         type: choice
         options:
           - all
+          - amlogic
+          - rockchip
+          - allwinner
+          - rockchip50
+          - rockchip50_100
           - first50
           - range50_100
           - range100_150
@@ -63,6 +68,7 @@ on:
           - gea-6319
           - gzpeite-p01
           - h28k
+          - h618-devboard
           - h66k
           - h68k
           - h69k
@@ -162,6 +168,7 @@ on:
           - s905x3-ip1001m
           - s905x3-q1
           - s905x3-q2
+          - s905x3-tox1
           - s905x3-tx3
           - s905x3-tx3-bz
           - s905x3-ugoosx3
@@ -212,6 +219,7 @@ on:
           - wocyber-a3
           - wxy-oect
           - wxy-oect-mod
+          - x98h
           - xiaobao
           - yskj
           - zcube1-max
