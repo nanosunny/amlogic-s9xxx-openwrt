@@ -48,7 +48,6 @@ fi
 # Add luci-app-amlogic
 rm -rf package/luci-app-amlogic
 git clone -b main https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #
 # Apply patches
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
